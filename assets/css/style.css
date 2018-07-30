@@ -2,25 +2,41 @@
 
 
 /* ------------------- Colors ------*/
-.bg-about-us{
+
+.bg-about-us {
     background-color: #0F0F0F;
 }
 
+.bg-music {
+    background-color: #F4F4F4;
+}
+
+.heading-white {
+    color: #F4F4F4;
+}
+
+.heading-black {
+    color: #0F0F0F;
+}
+
 /* -------------------------------------------Misc ----------*/
-body{
+
+body {
     font-family: "Roboto", sans-serif;
 }
-.uppercase{
+
+.uppercase {
     text-transform: uppercase;
 }
-hr{
+
+hr {
     width: 50px;
     height: 3px;
     border: 0;
     background-color: #743AC6;
 }
 
-.circle{
+.circle {
     border: 4px solid white;
     border-radius: 50%;
     background-color: transparent;
@@ -29,14 +45,25 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
-.circle h3{
+
+.circle h3 {
     color: white;
     text-align: center;
     position: relative;
     padding-top: 15px;
     font-weight: 700;
 }
+
+.bold {
+    font-weight: 700;
+}
+
+.spaced {
+    letter-spacing: 4px;
+}
+
 /* ------------------- ------------------------Header ------*/
+
 .landing-heading {
     height: 100vh;
     background: url("../images/Landing.jpg") no-repeat center center fixed;
@@ -49,58 +76,68 @@ hr{
     justify-content: center;
     position: relative;
 }
-.landing{
+
+.landing {
     background-color: transparent;
 }
-.landing h1{
+
+.landing h1 {
     color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
 }
-.landing p{
+
+.landing p {
     color: white;
 }
-.btn{
-    background-color:#743AC6;
+
+.btn {
+    background-color: #743AC6;
     transition: all 0.2s ease-in-out;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #944CF9;
     color: white;
 }
 
 /* ------------------- About Us ------*/
-.heading-container{
+
+.heading-container {
     border-left: 10px solid #743AC6;
 }
-.heading-container h1{
-    color: white;
+
+.heading-container h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     padding-left: 10px;
     margin-top: 75px;
 }
-.about p{
+
+.about p {
     margin-top: 100px;
-    color: white;
+    color: #F4F4F4;
     max-width: 400px;
 }
-.meet-the-band{
+
+.meet-the-band {
     margin: 0 auto;
 }
-.meet-the-band h3{
-    color: white;
+
+.meet-the-band h3 {
+    color: #F4F4F4;
     font-weight: 700;
     margin-top: 50px;
 }
-.meet-the-band p{
+
+.meet-the-band p {
     font-weight: 700;
     text-align: center;
     margin-top: 60px;
     margin-bottom: 20px;
 }
 
-.img-container img{
+.img-container img {
     max-height: 400px;
     max-width: 200px;
     display: block;
@@ -108,21 +145,66 @@ hr{
     margin-right: auto;
 }
 
-.info-wrapper{
+.info-wrapper {
     background: url(../images/infoPhoto.jpg) no-repeat center center;
     -webkit-background-size: cover;
     margin-top: 150px;
     padding: 30px;
 }
 
-.info-container p{
+.info-container p {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
     margin-top: 15px;
 }
+
 /* ------------------- Music ------*/
+
+.video-area {
+    margin-top: 100px;
+}
+
+.audio-area h3 {
+    color: #0F0F0F;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.audio-container {
+    background-color: #f1f3f4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.audio-container img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
 
 /* ------------------- Contact ------*/
 
 /* ------------------- Footer ------*/
+
+/* ------------------- Responsive ------*/
+
+@media screen and (min-width: 769px) {
+    .video-details {
+        max-width: 300px;
+        margin-right: 40px;
+        margin-left: 50px;
+        margin-top: 250px;
+    }
+    .video-player {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .video-player {
+        margin-left: 50px;
+    }
+}
