@@ -23,13 +23,14 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    font-size: 18px;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
 
-hr {
+.sub-hr {
     width: 50px;
     height: 3px;
     border: 0;
@@ -164,7 +165,9 @@ hr {
 .video-area {
     margin-top: 100px;
 }
-
+.audio-area{
+    margin: 0 auto;
+}
 .audio-area h3 {
     color: #0F0F0F;
     font-weight: 700;
@@ -186,6 +189,26 @@ hr {
 
 
 /* ------------------- Contact ------*/
+.contact-info p{
+    max-width: 400px;
+}
+
+.contact-hr{
+    height: 2px;
+    background-color: #743AC6;
+}
+
+/*  (form styling) */
+form button{
+    width: 100%;
+}
+.form-control:focus{
+    border-color: #743AC6;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(183, 102, 233, 0.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(183, 102, 233, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(183, 102, 233, 0.6);
+}
+
 
 /* ------------------- Footer ------*/
 
@@ -196,11 +219,12 @@ hr {
         max-width: 300px;
         margin-right: 40px;
         margin-left: 50px;
-        margin-top: 250px;
+        margin-top: 225px;
     }
     .video-player {
         margin-left: 30px;
     }
+
 }
 
 @media screen and (min-width:1025px) {

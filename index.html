@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="container-fluid landing-heading">
+    <!-------------------------------- Header ------------------------------------------------>
+    <header class="container-fluid landing-heading" id="header">
         <nav>
 
         </nav>
@@ -31,9 +31,10 @@
         </div>
         <!-- /Landing -->
     </header>
-    <!-- /Header -->
-    <!-- About Us -->
-    <section class="container-fluid bg-about-us about">
+    <!-------------------------------- /Header ------------------------------------------------>
+    
+    <!-------------------------------- About Us ------------------------------------------------>
+    <section class="container-fluid bg-about-us about" id="about">
         <!-- Introduction -->
         <div class="row">
             <div class="col-xs-12">
@@ -56,7 +57,7 @@
         <div class="row meet-the-band">
             <div class="col-xs-12">
                 <h3 class="text-center about-secondary-heading">Meet the Band</h3>
-                <hr class="secondary-break">
+                <hr class="sub-hr">
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 img-container">
                 <p>John Doe: Gutairist</p>
@@ -100,9 +101,10 @@
         </div>
         <!-- /Info Table -->
     </section>
-    <!-- /About Us -->
-    <!-- Music -->
-    <section class="container-fluid bg-music">
+    <!-------------------------------- /About Us ------------------------------------------------>
+    
+    <!-------------------------------- Music ------------------------------------------------>
+    <section class="container-fluid bg-music" id="media">
         <!-- Video Player -->
         <div class="row">
             <div class="col-xs-12">
@@ -111,23 +113,25 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-5 video-details video-area">
-                <p class="bold spaced">1973</p>
-                <p class="bold spaced">Summer Festival, London</p>
-                <p class="bold">BAND NAME performed one of their greatest songs "Song Title" in front of 70,000 people.</p>
+                <p class="bold spaced text-center">1973</p>
+                <p class="bold spaced text-center">Summer Festival, London</p>
+                <p class="bold text-center">BAND NAME performed one of their greatest songs "Song Title" in front of 70,000 people.</p>
             </div>
             <div class="col-xs-12 col-sm-7 video-player video-area">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uv2mxzmVvdg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nKp0uwiD6uc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
         <!-- /Video Player -->
         <!-- Audio -->
-        <div class="row audio-area">
+        <div class="row audio-area center-block">
             <div class="col-xs-12">
                 <h3 class="text-center">A Trip Down Memory Lane</h3>
-                <hr class="secondary-break">
+                <hr class="sub-hr">
             </div>
+            <!-- Audio Players -->
+            <!--
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="row audio-container">
                     <div class="col-xs-3">
@@ -218,17 +222,75 @@
                     </audio>
                 </div>
             </div>
+            -->
+            
+            <div class="col-xs-12 center-block">
+                <iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=743AC6&layout=&size=medium&type=album&id=91909&app_id=1" width="100%" height="350"></iframe>
+            </div>
+            
+            <!-- /Audio Players -->
+        </div>
+    </section>
+    <!------------------------------- /Music ------------------------------------------------>
+    
+    <!-------------------------------- Contact ------------------------------------------------>
+    <section class="container-fluid bg-music" id="contact">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="heading-container">
+                    <h1 class="uppercase heading-black">get in touch</h1>
+                </div>
+            </div>
+            <!-- Info -->
+            <div class="col-xs-12 col-md-6 contact-info ">
+                <p>Maecenas auctor sem a elementum blandit. Quisque et neque ut purus posuere tempor nec vitae ex. 
+                Phasellus molestie sapien in vestibulum gravida.</p>
+                <hr class="contact-hr center-block">
+                <p><span class="bold">Phone: </span>01-825-1111</p>
+                <p><span class="bold">Email: </span>bandname@outlook.com</p>
+                <p><span class="bold">Address: </span>Office 5, Unit A, Dublin Business Park</p>
+                
+            </div>
+            <!-- Form -->
+            <div class="col-xs-12 col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Please Enter Your Name: </label>
+                        <input type="name" id="name" class="form-control" placeholder="Name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email: </label>
+                        <input type="email" id="email" class="form-control" placeholder="Email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="countries">Country: </label>
+                        <select name="countires" class="form-control">
+                          <option value="USA">USA</option>
+                          <option value="UK">UK</option>
+                          <option value="Ireland">Ireland</option>
+                          <option value="France">France</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message: </label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Please give as many details as possible."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit!</button>
+                    
+                </form>
+            </div>
             
         </div>
     </section>
-    <!-- /Music -->
-    <section class="container-fluid bg-contact">
+    <!-------------------------------- /Contact ------------------------------------------------>
 
-    </section>
-
+    <!-------------------------------- Footer ------------------------------------------------>
     <footer class="container-fluid">
 
     </footer>
+    <!-------------------------------- /Footer ------------------------------------------------>
 </body>
 
 </html>
