@@ -32,7 +32,7 @@
         <!-- /Landing -->
     </header>
     <!-------------------------------- /Header ------------------------------------------------>
-    
+
     <!-------------------------------- About Us ------------------------------------------------>
     <section class="container-fluid bg-about-us about" id="about">
         <!-- Introduction -->
@@ -102,7 +102,7 @@
         <!-- /Info Table -->
     </section>
     <!-------------------------------- /About Us ------------------------------------------------>
-    
+
     <!-------------------------------- Music ------------------------------------------------>
     <section class="container-fluid bg-music" id="media">
         <!-- Video Player -->
@@ -223,42 +223,44 @@
                 </div>
             </div>
             -->
-            
-            <div class="col-xs-12 center-block">
+
+            <div class="col-xs-12 col-md-offset-3 col-md-6">
                 <iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=743AC6&layout=&size=medium&type=album&id=91909&app_id=1" width="100%" height="350"></iframe>
             </div>
-            
+
             <!-- /Audio Players -->
         </div>
     </section>
     <!------------------------------- /Music ------------------------------------------------>
-    
+
     <!-------------------------------- Contact ------------------------------------------------>
     <section class="container-fluid bg-music" id="contact">
-        <div class="row">
+        <div class="row contact-area">
             <div class="col-xs-12">
                 <div class="heading-container">
                     <h1 class="uppercase heading-black">get in touch</h1>
                 </div>
             </div>
             <!-- Info -->
-            <div class="col-xs-12 col-md-6 contact-info ">
-                <p>Maecenas auctor sem a elementum blandit. Quisque et neque ut purus posuere tempor nec vitae ex. 
-                Phasellus molestie sapien in vestibulum gravida.</p>
-                <hr class="contact-hr center-block">
+            <div class="col-xs-12  col-md-offset-1 col-md-4 contact-info ">
+                <p>Maecenas auctor sem a elementum blandit. Quisque et neque ut purus posuere tempor nec vitae ex. Phasellus molestie sapien in vestibulum gravida.</p>
+                <hr class="contact-hr text-center">
                 <p><span class="bold">Phone: </span>01-825-1111</p>
                 <p><span class="bold">Email: </span>bandname@outlook.com</p>
                 <p><span class="bold">Address: </span>Office 5, Unit A, Dublin Business Park</p>
-                
+
             </div>
             <!-- Form -->
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-offset-1 col-md-6">
+                <div class="clearfix visible-sm-block visible-xs-block">
+                    <h4 id="mobile-only" class="bold text-center">Send Us A Message!</h4>
+                </div>
                 <form>
                     <div class="form-group">
                         <label for="name">Please Enter Your Name: </label>
                         <input type="name" id="name" class="form-control" placeholder="Name">
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="email">Your Email: </label>
                         <input type="email" id="email" class="form-control" placeholder="Email">
@@ -277,18 +279,40 @@
                         <label for="message">Message: </label>
                         <textarea class="form-control" id="message" rows="3" placeholder="Please give as many details as possible."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-success">Submit!</button>
-                    
+                    <button type="submit" class="btn">Submit!</button>
+
                 </form>
             </div>
-            
+
+
         </div>
     </section>
     <!-------------------------------- /Contact ------------------------------------------------>
 
     <!-------------------------------- Footer ------------------------------------------------>
     <footer class="container-fluid">
+        <div class="row footer-container">
+            <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+                <h4>Sign up for our newsletter:</h4>
+                <input type="email" id="email" class="newsletter-email" placeholder="Email">
+                <button type="submit" class="btn">Submit!</button>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+                <h4>Message from us:</h4>
+                <p><em>"Thank you for our loyal fanbase and to newcomers. We are forever grateful for all your support!"</em></p>
+            </div>
 
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+                <h4>Follow us on social media:</h4>
+                <p>
+                    <a href="#"><i class="fa fa-facebook-square social-circles"></i></a>
+                    <a href="#"><i class="fa fa-twitter social-circles"></i></a>
+                    <a href="#"><i class="fa fa-instagram social-circles"></i></a>
+                    <a href="#"><i class="fa fa-youtube social-circles"></i></a>
+                    <a href="#"><i class="fa fa-spotify social-circles"></i></a>
+                </p>
+            </div>
+        </div>
     </footer>
     <!-------------------------------- /Footer ------------------------------------------------>
 </body>

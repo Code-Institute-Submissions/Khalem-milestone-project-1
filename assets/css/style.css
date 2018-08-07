@@ -18,13 +18,34 @@
 .heading-black {
     color: #0F0F0F;
 }
+footer{
+    background-color: #0F0F0F;
+}
 
 /* -------------------------------------------Misc ----------*/
 
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: #0F0F0F;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #743AC6;
+  outline: 1px solid #5d2ea0;
+  border-radius: 10px;
+}
+/* /Scrollbar */
+
 
 .uppercase {
     text-transform: uppercase;
@@ -54,6 +75,9 @@ body {
     padding-top: 15px;
     font-weight: 700;
 }
+.btn{
+    color: #F4F4F4;
+}
 
 .bold {
     font-weight: 700;
@@ -61,6 +85,10 @@ body {
 
 .spaced {
     letter-spacing: 4px;
+}
+#mobile-only{
+    color: #743AC6;
+    margin: 25px 0px;
 }
 
 /* ------------------- ------------------------Header ------*/
@@ -189,10 +217,16 @@ body {
 
 
 /* ------------------- Contact ------*/
+.contact-area{
+    margin-bottom: 75px;
+}
+.contact-area h1{
+    margin-bottom: 75px;   
+}
 .contact-info p{
     max-width: 400px;
+    margin-top: 20px;
 }
-
 .contact-hr{
     height: 2px;
     background-color: #743AC6;
@@ -211,7 +245,54 @@ form button{
 
 
 /* ------------------- Footer ------*/
+footer h4{
+    color: #F4F4F4;
+}
+footer p{
+    color: #F4F4F4;    
+    font-size: 14px;
+}
 
+/* Newsletter */
+.footer-container{
+    padding: 30px 5px;
+}
+.footer-container div{
+    margin-top: 20px;
+}
+.newsletter-email{
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 4px;
+    color: #F4F4F4;
+    background-color: transparent;
+    border: 1px solid #926ec4;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.newsletter-email:focus{
+    border-color: #743AC6;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(183, 102, 233, 0.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(183, 102, 233, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(183, 102, 233, 0.6);
+}
+
+.social-circles{
+    border: 1px solid #F4F4F4;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    transition: .2s all ease-in-out;
+}
+.social-circles:hover{
+    background-color: #F4F4F4;
+    color: #0F0F0F;
+    border-color: #0F0F0F;
+}
+footer a{
+    color: #F4F4F4;
+}
 /* ------------------- Responsive ------*/
 
 @media screen and (min-width: 769px) {
