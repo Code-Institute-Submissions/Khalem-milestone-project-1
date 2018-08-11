@@ -10,21 +10,53 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-    <title>BandName</title>
+    <title>Deep Purple</title>
 </head>
 
 <body>
     <!-------------------------------- Header ------------------------------------------------>
     <header class="container-fluid landing-heading" id="header">
-        <nav>
+        <div class="row">
+            <!-- Mobile Nav -->
+            <div class="col-xs-12 clearfix visible-xs-block visible-sm-block">
+                <nav>
+                    <label for="toggle"><i class="fa fa-navicon"></i></label>
+                    <input type="checkbox" id="toggle" />
+                    <div class="menu">
+                        <a href="#header">Home</a>
+                        <a href="#about">About Us</a>
+                        <a href="#media">Media</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </nav>
+            </div>
+            <!-- /Mobile Nav -->
+            <!-- Desktop Nav -->
+            <div class="col-xs-12 clearfix visible-md-block visible-lg-block">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#header">Home</a>
+                            <a href="#about">About Us</a>
+                            <a href="#header"><img src="assets/images/dp-logo-purple.png" alt="logo"/></a>
+                            <a href="#media">Media</a>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
-        </nav>
+            <!-- /Desktop Nav -->
+
+        </div>
+
+
         <!-- Landing -->
         <div class="row">
             <div class="col-xs-12">
                 <section class="landing jumbotron text-center">
-                    <h1 class="uppercase">band name</h1>
-                    <p>Over 50 Years of Performing.</p>
+                    <img src="assets/images/dp-logo-white.png" alt="dp-logo" />
+                    <h3 class="bold">One of the biggest bands of the 80's.</h3>
                     <p><button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#bookNowModal'>Book Now!</button></p>
                 </section>
             </div>
@@ -43,11 +75,13 @@
                 </div>
             </div>
             <div class="col-xs-11 col-xs-offset-1 col-sm-5">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper, lacus varius tristique sodales, dolor nisi efficitur mi, non lobortis nulla lorem eu ante. Donec metus erat, feugiat a cursus sit amet, eleifend id felis.
+                <p><em>Deep Purple</em> are considered to be among the pioneers of heavy metal and modern hard rock. The English rock band formed in Hertford 1968. Along with <em>Led Zeppelin</em> and <em>Black Sabbath</em>, <em>Deep purple</em> were known as the "unholy trinity of British
+                    hard rock and heavy metal in the early to mid-seventies".
                 </p>
             </div>
             <div class="col-xs-11 col-xs-offset-1 col-sm-5">
-                <p>Phasellus porta mi nec auctor laoreet. Sed a vehicula odio. Aenean porttitor lacus urna, ut efficitur eros posuere sagittis. Praesent lobortis nisl tellus, ac cursus neque elementum ut.
+                <p>In 1975, <em>Deep purple</em> were listed in the Guiness Book of World Records as "the globe's loudest band" for a 1972 concert at London's Rainbow Theatre. With over 100 million copies of their albums sold worldwide, <em>Deep Purple</em> have established
+                    themselves as a staple of the rock era.
                 </p>
             </div>
         </div>
@@ -59,44 +93,42 @@
                 <h3 class="text-center about-secondary-heading">Meet the Band</h3>
                 <hr class="sub-hr">
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 img-container">
-                <p>John Doe: Gutairist</p>
-                <img src="assets/images/JimmyPages.jpg" alt="" />
+            <div class="col-xs-12 col-sm-6 img-container">
+                <p>Ian Gillan: Vocals</p>
+                <img src="assets/images/ian-gillan.jpg" alt="" />
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 img-container">
-                <p>John Doe: Gutairist</p>
-                <img src="assets/images/JimmyPages.jpg" alt="" />
+            <div class="col-xs-12 col-sm-6 img-container">
+                <p>Roger Glover: Bass</p>
+                <img src="assets/images/roger-glover.jpg" alt="" />
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 img-container">
-                <p>John Doe: Gutairist</p>
-                <img src="assets/images/JimmyPages.jpg" alt="" />
+            <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4 img-container">
+                <p>Ian Paice: Drums</p>
+                <img src="assets/images/ian-paice.jpg" alt="" />
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 img-container">
-                <p>John Doe: Gutairist</p>
-                <img src="assets/images/JimmyPages.jpg" alt="" />
+            <div class="col-xs-12 col-sm-6 col-md-4 img-container">
+                <p>Steve Morse: Guitar</p>
+                <img src="assets/images/steve-morse.jpg" alt="" />
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 img-container">
+                <p>Don Airey: Keyboardist</p>
+                <img src="assets/images/don-airey.jpg" alt="" />
             </div>
         </div>
         <!-- /Meet the Band -->
 
         <!-- Info Table -->
         <div class="row info-wrapper">
-            <div class="col-xs-12 col-sm-4 info-container">
-                <div class="circle">
-                    <h3>150m</h3>
-                </div>
-                <p>150 million records sold</p>
+            <div class="col-xs-12 col-sm-4 info-container text-center">
+                <i class="fa fa-music info-circle"></i>
+                <p>100 Million Albums Sold</p>
             </div>
-            <div class="col-xs-12 col-sm-4 info-container">
-                <div class="circle">
-                    <h3>50+</h3>
-                </div>
-                <p>Over 50 years of performing</p>
+            <div class="col-xs-12 col-sm-4 info-container text-center">
+                <i class="fa fa-hourglass-half info-circle"></i>
+                <p>50 Years of Experience</p>
             </div>
-            <div class="col-xs-12 col-sm-4 info-container">
-                <div class="circle">
-                    <h3><i class="fa fa-heart"></i></h3>
-                </div>
-                <p> A lifetime of passion</p>
+            <div class="col-xs-12 col-sm-4 info-container text-center">
+                <i class="fa fa-heart info-circle"></i>
+                <p>A Lifetime of Passion</p>
             </div>
         </div>
         <!-- /Info Table -->
@@ -113,13 +145,13 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-5 video-details video-area">
-                <p class="bold spaced text-center">1973</p>
-                <p class="bold spaced text-center">Summer Festival, London</p>
-                <p class="bold text-center">BAND NAME performed one of their greatest songs "Song Title" in front of 70,000 people.</p>
+                <p class="bold spaced text-center">1988</p>
+                <p class="bold spaced text-center">Giants Stadium, New York</p>
+                <p class="bold text-center">Deep Purple performed one of their biggest songs <em>"Child In Time"</em> infront of a crowd of 70,000.</p>
             </div>
             <div class="col-xs-12 col-sm-7 video-player video-area">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nKp0uwiD6uc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/we_OxYQfIwA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -225,7 +257,7 @@
             -->
 
             <div class="col-xs-12 col-md-offset-3 col-md-6">
-                <iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=743AC6&layout=&size=medium&type=album&id=91909&app_id=1" width="100%" height="350"></iframe>
+                <iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=743AC6&layout=&size=medium&type=album&id=308821&app_id=1" width="100%" height="350"></iframe>
             </div>
 
             <!-- /Audio Players -->
@@ -243,10 +275,10 @@
             </div>
             <!-- Info -->
             <div class="col-xs-12  col-md-offset-1 col-md-4 contact-info ">
-                <p>Maecenas auctor sem a elementum blandit. Quisque et neque ut purus posuere tempor nec vitae ex. Phasellus molestie sapien in vestibulum gravida.</p>
+                <p><em>Deep Purple</em> are now accepting bookings! With <strong>50 years of experience</strong>, they are perfect for any occasion. Please only contact about business enquiries - spam will result in no response. We will respond to all enquiries ASAP!</p>
                 <hr class="contact-hr text-center">
                 <p><span class="bold">Phone: </span>01-825-1111</p>
-                <p><span class="bold">Email: </span>bandname@outlook.com</p>
+                <p><span class="bold">Email: </span>deep.purple@outlook.com</p>
                 <p><span class="bold">Address: </span>Office 5, Unit A, Dublin Business Park</p>
 
             </div>
@@ -258,17 +290,17 @@
                 <form>
                     <div class="form-group">
                         <label for="name">Please Enter Your Name: </label>
-                        <input type="name" id="name" class="form-control" placeholder="Name">
+                        <input type="name" id="name" class="form-control" placeholder="Name" required>
                     </div>
 
                     <div class="form-group">
                         <label for="email">Your Email: </label>
-                        <input type="email" id="email" class="form-control" placeholder="Email">
+                        <input type="email" id="email" class="form-control" placeholder="Email" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
                         <label for="countries">Country: </label>
-                        <select name="countires" class="form-control">
+                        <select name="countires" class="form-control" required>
                           <option value="USA">USA</option>
                           <option value="UK">UK</option>
                           <option value="Ireland">Ireland</option>
@@ -277,7 +309,7 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Message: </label>
-                        <textarea class="form-control" id="message" rows="3" placeholder="Please give as many details as possible."></textarea>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Please give as many details as possible." required></textarea>
                     </div>
                     <button type="submit" class="btn">Submit!</button>
 
@@ -299,22 +331,65 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 text-center">
                 <h4>Message from us:</h4>
-                <p><em>"Thank you for our loyal fanbase and to newcomers. We are forever grateful for all your support!"</em></p>
+                <p><em>"Thank you for our loyal fanbase and to the newcomers also. We are forever grateful for all your support!"</em></p>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 text-center">
                 <h4>Follow us on social media:</h4>
                 <p>
-                    <a href="#"><i class="fa fa-facebook-square social-circles"></i></a>
-                    <a href="#"><i class="fa fa-twitter social-circles"></i></a>
-                    <a href="#"><i class="fa fa-instagram social-circles"></i></a>
-                    <a href="#"><i class="fa fa-youtube social-circles"></i></a>
-                    <a href="#"><i class="fa fa-spotify social-circles"></i></a>
+                    <a href="https://www.facebook.com/officialdeeppurple/" target="_blank"><i class="fa fa-facebook-square social-circles"></i></a>
+                    <a href="https://twitter.com/_DeepPurple" target="_blank"><i class="fa fa-twitter social-circles"></i></a>
+                    <a href=""><i class="fa fa-instagram social-circles" target="_blank"></i></a>
+                    <a href="https://www.youtube.com/channel/UChFONkdHg3zrt3zaHmx1bKA" target="_blank"><i class="fa fa-youtube social-circles"></i></a>
+                    <a href="https://open.spotify.com/artist/568ZhdwyaiCyOGJRtNYhWf" target="_blank"><i class="fa fa-spotify social-circles"></i></a>
                 </p>
             </div>
         </div>
     </footer>
     <!-------------------------------- /Footer ------------------------------------------------>
+
+    <!--- Modal -->
+    <div class="modal fade" id="bookNowModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title uppercase" id="myModalLabel">Book a gig now!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Please Enter Your Name: </label>
+                            <input type="name" id="name" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email: </label>
+                            <input type="email" id="email" class="form-control" placeholder="Email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="countries">Country: </label>
+                            <select name="countires" class="form-control" required>
+                          <option value="USA">USA</option>
+                          <option value="UK">UK</option>
+                          <option value="Ireland">Ireland</option>
+                          <option value="France">France</option>
+                        </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message: </label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Please give as many details as possible." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Submit!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
