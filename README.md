@@ -42,13 +42,15 @@ the band could showcase their accomplishments.
 
 ## Testing
 As mentioned before, making the website responsive as possible was a great concern for me. So I did extensive testing to make sure the website is
-functional on all devices and browsers. I can say I am pleased with the results. 
+functional on all devices and browsers. I was pleased with the results. However my mentor pointed out to me that parts of the website were misaligned
+on larger screens. I then fixed the issues and I am happy with the results!
 
 All user stories work as intended (apart from actually submitting form but we haven't covered that yet). If a user does not fill out any form input
 they will recieve an error.
 
 ## Deployment
-
+I decided to deploy the website on GitHub Pages. In order to deploy it I went into my repository settings and set the GitHub Pages source to master branch.
+You can view the website [here!](https://khalem.github.io/milestone-project-1/)
 ## Credits 
 #### Content:
 * The majority of the about us section came from the [Deep Purple wikipedia](https://en.wikipedia.org/wiki/Deep_Purple).

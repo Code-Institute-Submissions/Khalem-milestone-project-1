@@ -23,8 +23,8 @@
                     <label for="toggle"><i class="fa fa-navicon"></i></label>
                     <input type="checkbox" id="toggle" />
                     <div class="menu">
-                        <a href="#header">Home</a>
-                        <a href="#about">About Us</a>
+                        <a  class="nav-fix" href="#header">Home</a>
+                        <a class="nav-fix" href="#about">About Us</a>
                         <a href="#media">Media</a>
                         <a href="#contact">Contact</a>
                     </div>
@@ -66,20 +66,20 @@
     <!-------------------------------- /Header ------------------------------------------------>
 
     <!-------------------------------- About Us ------------------------------------------------>
-    <section class="container-fluid bg-about-us about" id="about">
+    <section class="container-fluid bg-about-us" id="about">
         <!-- Introduction -->
-        <div class="row">
+        <div class="row about">
             <div class="col-xs-12">
                 <div class="heading-container">
                     <h1 class="uppercase heading-white">about us</h1>
                 </div>
             </div>
-            <div class="col-xs-11 col-xs-offset-1 col-sm-5">
+            <div class="col-xs-11 col-xs-offset-1 col-sm-5 col-lg-offset-2 col-lg-4">
                 <p><em>Deep Purple</em> are considered to be among the pioneers of heavy metal and modern hard rock. The English rock band formed in Hertford 1968. Along with <em>Led Zeppelin</em> and <em>Black Sabbath</em>, <em>Deep purple</em> were known as the "unholy trinity of British
                     hard rock and heavy metal in the early to mid-seventies".
                 </p>
             </div>
-            <div class="col-xs-11 col-xs-offset-1 col-sm-5">
+            <div class="col-xs-11 col-xs-offset-1 col-sm-5 col-lg-offset-1 col-lg-5">
                 <p>In 1975, <em>Deep purple</em> were listed in the Guiness Book of World Records as "the globe's loudest band" for a 1972 concert at London's Rainbow Theatre. With over 100 million copies of their albums sold worldwide, <em>Deep Purple</em> have established
                     themselves as a staple of the rock era.
                 </p>
@@ -144,12 +144,12 @@
                     <h1 class="uppercase heading-black">music</h1>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-5 video-details video-area">
+            <div class="col-xs-12 col-sm-4 video-details video-area">
                 <p class="bold spaced text-center">1988</p>
                 <p class="bold spaced text-center">Giants Stadium, New York</p>
                 <p class="bold text-center">Deep Purple performed one of their biggest songs <em>"Child In Time"</em> infront of a crowd of 70,000.</p>
             </div>
-            <div class="col-xs-12 col-sm-7 video-player video-area">
+            <div class="col-xs-12 col-sm-offset-1 col-sm-7 video-player video-area">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/we_OxYQfIwA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
@@ -287,7 +287,7 @@
                 <div class="clearfix visible-sm-block visible-xs-block">
                     <h4 id="mobile-only" class="bold text-center">Send Us A Message!</h4>
                 </div>
-                <form>
+                <form action="thank-you.html" method="post">
                     <div class="form-group">
                         <label for="name">Please Enter Your Name: </label>
                         <input type="name" id="name" class="form-control" placeholder="Name" required>
@@ -357,7 +357,7 @@
                     <h4 class="modal-title uppercase" id="myModalLabel">Book a gig now!</h4>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="thank-you.html" method="post">
                         <div class="form-group">
                             <label for="name">Please Enter Your Name: </label>
                             <input type="name" id="name" class="form-control" placeholder="Name" required>
