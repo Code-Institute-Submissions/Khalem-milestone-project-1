@@ -318,20 +318,6 @@ nav img {
     margin-top: 100px;
 }
 
-.audio-container {
-    background-color: #f1f3f4;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    transition: all 0.2s ease-in-out;
-}
-
-.audio-container img {
-    max-width: 100px;
-    max-height: 100px;
-}
-
-
 /* ------------------- Contact ------*/
 
 .contact-area {
